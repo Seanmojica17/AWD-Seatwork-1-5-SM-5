@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10rem;
+    background-color: #f4f4f4;
+}
+
+.bus-container {
+    margin-bottom: 10rem;
+}
+
+.bus {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.bus h3 {
+    margin: 0;
+    color: #333;
+}
+
+.bus p {
+    margin: 5px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
