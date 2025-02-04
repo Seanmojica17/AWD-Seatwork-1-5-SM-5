@@ -22,7 +22,7 @@
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](![visits](https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2FSeanmojica17%2FAWD-Seatwork-1-5-SM-5.git&s=40&c=00ff00&bg=00000000&no=1&ff=electrolize&tb=&ta=))
 
-[![wakatime](https://wakatime.com/@018f0303-c295-4d90-ab20-dc80859a046a/projects/newpltzikq)
+[![wakatime](https://wakatime.com/@018f0303-c295-4d90-ab20-dc80859a046a/projects/newpltzikq#:~:text=5%2DMD%2D25-,total,6%20hrs%2020%20mins,-Time%20in%20this)
 
 ---
 
