@@ -4,9 +4,9 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/DomeldManangan/">
+  <a href="https://github.com/Seanmojica17">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/LegenX Logo.png" alt="Nyebe" width="auto" height="auto">
+    <img src="./assets/img/Black and White Minimalist Graffiti Urban Brand Logo.png" alt="Nyebe" width="auto" height="auto">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">AWD-Seatwork-1-5-MD-25</h3>
