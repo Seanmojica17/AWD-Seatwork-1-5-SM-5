@@ -1,5 +1,5 @@
 // Bus seat data (each bus starts with 20 seats)
-let buses = JSON.parse(localStorage.getItem("buses")) || {
+let buses = localStorage.getItem("buses") ? JSON.parse(localStorage.getItem("buses")) : {
     bus1: 20,
     bus2: 20,
     bus3: 20
@@ -8,7 +8,7 @@ let buses = JSON.parse(localStorage.getItem("buses")) || {
 // Function to check available seats
 function checkAvailability() {
     let selectedBus = document.getElementById("busSelect").value;
-    let availableSeats = buses[selectedBus];
+    let availableSeats = buses[selectedBus] || 0;
 
     document.getElementById("availableSeats").textContent = `Available Seats: ${availableSeats}`;
 }
@@ -17,7 +17,7 @@ function checkAvailability() {
 function reserveSeats() {
     let selectedBus = document.getElementById("busSelect").value;
 
-    if (buses[selectedBus] >= 5) {
+    if (buses[selectedBus] && buses[selectedBus] >= 5) {
         buses[selectedBus] -= 5;
         localStorage.setItem("buses", JSON.stringify(buses)); // Save to local storage
         document.getElementById("message").textContent = "Reservation Successful!";
@@ -30,7 +30,7 @@ function reserveSeats() {
 document.addEventListener("DOMContentLoaded", function () {
     checkAvailability(); // Show initial seat count
 
-    document.querySelector("button:nth-of-type(1)").addEventListener("click", checkAvailability);
-    document.querySelector("button:nth-of-type(2)").addEventListener("click", reserveSeats);
+    document.getElementById("checkButton").addEventListener("click", checkAvailability);
+    document.getElementById("reserveButton").addEventListener("click", reserveSeats);
 });
 
