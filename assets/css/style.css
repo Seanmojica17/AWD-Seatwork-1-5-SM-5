@@ -26,7 +26,7 @@
   /*----------------- BODY ----------------- */
 
 body{
-  font-family: "quicksand", sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: black;
   color: rgb(87, 86, 86);
   text-align: center;
@@ -72,7 +72,8 @@ body{
   width: 40%;
   margin: 50px auto;
   padding: 10px;
-  background: white;
+  background: rgba(0, 0, 0, 0.582);
+  opacity: 0.2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   display: flex;
@@ -84,7 +85,7 @@ body{
 }
 
 h1 {
-  color:#000000;
+  color:#fffefe;
   text-align: center;
 }
 
@@ -95,7 +96,7 @@ select, button {
 }
 
 label {
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
@@ -117,14 +118,14 @@ button:hover {
 #message {
   font-weight: bold;
   margin-top: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
 
 
 #availableSeats {
-  color: #120d0c;
+  color: #e0e0e0;
 }
 
 
@@ -140,7 +141,7 @@ button:hover {
   transform: translateY(-50%); /* Centers it vertically */
   text-align: start;
   max-width: 800px;
-  filter: drop-shadow(0 0 100px black);
+  
 }
 
 .content1 h2{
@@ -154,40 +155,3 @@ button:hover {
   font-size: 1rem;
 }
 
-
-
-/* Modal styling */
-.popup {
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(black, .8);
-    backdrop-filter: blur(10px);
-    z-index: 9999;
-    opacity: 0;
-    visibility: hidden;
-    transition: all .3s;
-}
-
-    &:target {
-      opacity: 1;
-      visibility: visible;
-    }
-    
-    .popup_content {
-    
-      width: 75%;
-      padding: 20px;
-      background-color: white;
-      box-shadow: 0 2rem 4rem rgba(black, .2);
-      border-radius: 10px;
-      overflow: hidden; 
-  
-    }
-  
-    .pop__text {
-      font-size: 1.4rem;
-      margin-bottom: 4rem;
-    }
