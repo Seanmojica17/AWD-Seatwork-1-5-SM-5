@@ -33,4 +33,3 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("checkButton").addEventListener("click", checkAvailability);
     document.getElementById("reserveButton").addEventListener("click", reserveSeats);
 });
-
