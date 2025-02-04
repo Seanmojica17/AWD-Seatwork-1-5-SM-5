@@ -9,7 +9,7 @@ header {
   .header {
     width: 100%;
     padding: 0.6rem;
-    background-color: #111111;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ header {
   }
   
   .buttons {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: 900;
     padding-left: 2rem;
@@ -56,13 +56,13 @@ header {
   .buttons:hover:before {
   font-size: 1.7rem;
   transform: scale(1.2);
-  box-shadow:  0 0 15px #f7f7f7;
+  box-shadow:  0 0 15px #585656;
       filter: blur(3px);
 
   }
 
   .buttons:hover {
-    color: #ffffff;
-    box-shadow: 0 0 15px #ffffff;
-    text-shadow: 0 0 15px #ffffff;
+    color: #585656;
+    box-shadow: 0 0 15px #585656;
+    text-shadow: 0 0 15px #585656;
   }
