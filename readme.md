@@ -22,7 +22,7 @@
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](![visits](https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2FSeanmojica17%2FAWD-Seatwork-1-5-SM-5.git&s=40&c=00ff00&bg=00000000&no=1&ff=electrolize&tb=&ta=))
 
-[![wakatime](https://wakatime.com/@018f0309-110e-4fb4-a112-c4089ccba85e)
+[![wakatime](https://wakatime.com/@018f0303-c295-4d90-ab20-dc80859a046a/projects/newpltzikq)
 
 ---
 
@@ -123,11 +123,11 @@ AWD-ProjectName
 
 ### Main Website
 
-- https://domeldmanangan.github.io/AWD-Seatwork-1-5-MD-25/
+- https://seanmojica17.github.io/AWD-Seatwork-1-5-SM-5/
 
 ## Wakatime
 
-- https://wakatime.com/@018f0303-c295-4d90-ab20-dc80859a046a/projects/newpltzikq?start=2025-01-23&end=2025-01-29
+- https://wakatime.com/@018f0303-c295-4d90-ab20-dc80859a046a/projects/newpltzikq
 
 ## Instructions
 
