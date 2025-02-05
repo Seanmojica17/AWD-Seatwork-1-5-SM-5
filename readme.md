@@ -147,3 +147,4 @@ AWD-ProjectName
 | Google Fonts | Fonts | https://fonts.google.com |
 | Chatgpt | HTML & CSS & JS | https://chatgpt.com/|
 | Canva | Logo | https://www.canva.com/ |
+| Legenx | Design | https://github.com/DomeldManangan/ |
