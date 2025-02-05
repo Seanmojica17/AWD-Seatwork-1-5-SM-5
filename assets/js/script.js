@@ -1,9 +1,15 @@
-// Bus seat data (each bus starts with 20 seats)
-let buses = localStorage.getItem("buses") ? JSON.parse(localStorage.getItem("buses")) : {
-    bus1: 20,
-    bus2: 20,
-    bus3: 20
-};
+// Function to reset bus data
+function resetBusData() {
+    buses = {
+        bus1: 20,
+        bus2: 20,
+        bus3: 20
+    };
+    localStorage.setItem("buses", JSON.stringify(buses)); // Save reset data to local storage
+}
+
+// Reset the bus seat data on page load
+resetBusData();
 
 // Function to get current date and time
 function getCurrentDateTime() {
@@ -27,7 +33,7 @@ function reserveSeats() {
 
     if (buses[selectedBus] && buses[selectedBus] >= 5) {
         buses[selectedBus] -= 5;
-        localStorage.setItem("buses", JSON.stringify(buses)); // Save to local storage
+        localStorage.setItem("buses", JSON.stringify(buses)); // Save updated data
         let reservationTime = getCurrentDateTime();
         document.getElementById("message").textContent = `Reservation Successful! (${reservationTime})`;
         checkAvailability(); // Update seat count
@@ -42,4 +48,3 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("checkButton").addEventListener("click", checkAvailability);
     document.getElementById("reserveButton").addEventListener("click", reserveSeats);
 });
-
